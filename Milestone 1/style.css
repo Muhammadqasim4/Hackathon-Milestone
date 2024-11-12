@@ -94,7 +94,7 @@ h1{
     border: 0px solid magenta;
     border-radius: 10px;
     position: relative;
-    top: 30px;
+    top: 41px;
     box-shadow: 2px 2px 6px 3px magenta;
 }
 
@@ -104,7 +104,7 @@ h1{
     border: 0px solid white;
     border-radius: 10px;
     position: relative;
-    top: 44px;
+    top: 51px;
     box-shadow: 2px 2px 6px 3px magenta;
     
 }
@@ -116,7 +116,7 @@ h1{
     border-radius: 10px;
     animation: colorAnimate 2s;
     position: relative;
-    top: 59px;
+    top: 66px;
     box-shadow: 2px 2px 6px 3px magenta;
 
 }
@@ -128,7 +128,7 @@ h1{
     border-radius: 10px;
     animation: colorAnimate 2s;
     position: relative;
-    top: 71px;
+    top: 80px;
     box-shadow: 2px 2px 6px 3px magenta;
 }
 
@@ -139,7 +139,7 @@ h1{
     border-radius: 10px;
     animation: colorAnimate 2s;
     position: relative;
-    top: 85px;
+    top: 96px;
     box-shadow: 2px 2px 6px 3px magenta;
 }
 
@@ -150,7 +150,7 @@ h1{
     border-radius: 10px;
     animation: colorAnimate 2s;
     position: relative;
-    top: 96px;
+    top: 107px;
     box-shadow: 2px 2px 6px 3px magenta;
 }
 
@@ -161,42 +161,19 @@ h1{
     border-radius: 10px;
     animation: colorAnimate 2s;
     position: relative;
-    top: 110px;
+    top: 120px;
     box-shadow: 2px 2px 6px 3px magenta;
 }
 
-.coloreight{
-    height: 15px;
-    width: 70px;
-    border: 0px solid white;
-    border-radius: 10px;
-    animation: colorAnimate 2s;
-    position: relative;
-    top: 124px;
-    box-shadow: 2px 2px 6px 3px magenta;
-    
 
-} 
-
-.colornine{
+ .coloreight{
     height: 15px;
     width: 70px;
     border: 0px solid white;
     border-radius: 10px;
     animation: colorAnimate 2s;
     position: relative;
-    top: 10px;
-    margin-top: 125px;
-    box-shadow: 2px 2px 6px 3px magenta;
-}
-.coloreight{
-    height: 15px;
-    width: 70px;
-    border: 0px solid white;
-    border-radius: 10px;
-    animation: colorAnimate 2s;
-    position: relative;
-    top: 124px;
+    top: 130px;
     box-shadow: 2px 2px 6px 3px magenta;
     
 
@@ -210,8 +187,8 @@ h1{
     animation: colorAnimate 2s;
     position: relative;
     top: 10px;
-    margin-top: 125px;
-    box-shadow: 2px 2px 6px 3px magenta;
+    margin-top: 134px;
+    box-shadow: 2px 2px 6px 3px magenta; 
 }
 .colorten{
     height: 15px;
@@ -219,7 +196,7 @@ h1{
     border: 0px solid white;
     border-radius: 10px;
     position: relative;
-    top: 54px;
+    top: 55px;
     box-shadow: 2px 2px 6px 3px magenta;
     
 
@@ -232,10 +209,14 @@ h1{
     border-radius: 10px;
     animation: colorAnimate 2s;
     position: relative;
-    top:  65px;
+    top:  69px;
     box-shadow: 2px 2px 6px 3px magenta;
     
 }
+   
+
+    
+    
 
 .bar{
     background-color: magenta;
