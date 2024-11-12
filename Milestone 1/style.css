@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/seamless-gold-hexagon-grid-pattern-black-background-vector_53876-161742.jpg?ga=GA1.1.187489777.1728997407&semt=ais_hybrid);
+    background-size: cover;
+    height: 750px;
+}
+.resume-container{
+    width: 370px;
+    height: 659px;
+    border: 2px solid black;
+}
+.hero-sec{
+    display: flex;
+   
+    height: 150px;
+}
+h1{
+    font-size: 28px;
+    margin-top: 10px;
+    color: white;
+}
+.name{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+#unique{
+    font-size: 30px;
+
+}
+.txt{
+    font-size: 18px;
+    font-weight: 550;
+    color: whitesmoke;
+}
+#image{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 12px;
+    background-image: url(profile-img.jpg);
+    background-size: cover;
+    box-shadow: 2px 2px 10px 6px white;
+
+}
+
+#content{
+    height: 80px;
+    width: 360px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 40px;
+    display: flex;
+    box-shadow:  2px 2px 10px 4px magenta;
+    
+}
+.intro{
+    font-size: 10px;
+    padding-left: 28px;
+    padding-top: 4px;
+    color: gainsboro;
+}
+.icons{
+    font-size:10px;
+    padding-top: 4px;
+    padding-left: 30px;
+    line-height: 20px;
+    color: gainsboro;
+    color: magenta;
+}
+.info{
+    padding-left: 6px;
+    color: white;
+}
+.left-panel{
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 20px;
+    display: flex;
+    
+}
+.skills{
+    margin-top: 8px;
+    font-size: 12px;
+    color: gainsboro;
+}
+.colorone{
+    height: 15px;
+    width: 70px;
+    border: 0px solid magenta;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    box-shadow: 2px 2px 6px 3px magenta;
+}
+
+.colortwo{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    position: relative;
+    top: 44px;
+    box-shadow: 2px 2px 6px 3px magenta;
+    
+}
+
+.colorthree{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 59px;
+    box-shadow: 2px 2px 6px 3px magenta;
+
+}
+
+.colorfour{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 71px;
+    box-shadow: 2px 2px 6px 3px magenta;
+}
+
+.colorfive{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 85px;
+    box-shadow: 2px 2px 6px 3px magenta;
+}
+
+.colorsix{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 96px;
+    box-shadow: 2px 2px 6px 3px magenta;
+}
+
+ .colorseven{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 110px;
+    box-shadow: 2px 2px 6px 3px magenta;
+}
+
+.coloreight{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 124px;
+    box-shadow: 2px 2px 6px 3px magenta;
+    
+
+} */
+
+.colornine{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 10px;
+    margin-top: 125px;
+    box-shadow: 2px 2px 6px 3px magenta;
+}
+.coloreight{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 124px;
+    box-shadow: 2px 2px 6px 3px magenta;
+    
+
+}
+
+.colornine{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top: 10px;
+    margin-top: 125px;
+    box-shadow: 2px 2px 6px 3px magenta;
+}
+.colorten{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    position: relative;
+    top: 54px;
+    box-shadow: 2px 2px 6px 3px magenta;
+    
+
+}
+
+.coloreleven{
+    height: 15px;
+    width: 70px;
+    border: 0px solid white;
+    border-radius: 10px;
+    animation: colorAnimate 2s;
+    position: relative;
+    top:  65px;
+    box-shadow: 2px 2px 6px 3px magenta;
+    
+}
+
+.bar{
+    background-color: magenta;
+    height: 100%;
+    width: 95%;
+    border-radius: 10px;
+}
+.bartwo{
+    background-color: magenta;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+}
+.barthree{
+    background-color: magenta;
+    width: 77%;
+    height: 100%;
+    border-radius: 10px;
+}
+.barfourth{
+    background-color: magenta;
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+}
+.barfive{
+    background-color: magenta;
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+}
+.barsix{
+    background-color: magenta;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+}
+.barseven{
+    background-color: magenta;
+    width: 65%;
+    height: 100%;
+    border-radius: 10px;
+}
+.bareigth{
+    background-color: magenta;
+    width: 65%;
+    height: 100%;
+    border-radius: 10px;
+}
+.barnine{
+    background-color: magenta;
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.barten{
+    background-color: magenta;
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+}
+.bareleven{
+    background-color: magenta;
+    width: 95%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.lang{
+    font-size: 16px;
+    font-weight: 900;
+    margin-top: 10px;
+    
+}
+
+#right-panel{
+    margin-left: 35px;
+}
+h2{
+    color: magenta;
+     margin-top: 10px; 
+    
+}
+h3{
+    color: white;
+    margin-top: 10px;
+}
+button{
+    border-radius: 12px;
+    width: 80px;
+    border:  2px solid magenta;
+    background-color: black;
+    color: gainsboro;
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px 3px magenta;
+}
+.text{
+    color: gainsboro;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.loc{
+    color: gainsboro;
+    font-size: 14px;
+}
+.web-txt{
+   margin-top: 15px;
+    color:gainsboro;
+    font-size: 14px;
+}
+.giaic-txt{
+    color: gainsboro;
+    font-size: 14px;
+}
+#exp-head{
+    margin-top: 16px;
+}
+#toogle{
+    width: 120px;
+    height: 30px;
+    border: 2px solid magenta;
+    position: relative;
+    border-radius: 20px;
+    bottom: 7px;
+    box-shadow: 2px 2px 10px 3px magenta;
+
+}
+
+/* larger device */
+@media screen and (min-width : 768px) {
+    .resume-container{
+        margin: auto;
+        margin-top: 30px;
+        width: 700px;
+        height: 800px;
+    }
+    .hero-sec {
+        padding-left: 125px;
+    }
+    h1{
+        font-size: 33px;
+    }
+    .txt{
+        font-size: 22px;
+    }
+    #content{
+        width: 580px;
+        height: 100px;
+    }
+    .intro{
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    .icons{
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    .info{
+        font-size: 15px;
+    }
+    .left-panel{
+        padding-left: 55px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    .lang{
+        font-size: 25px;
+    }
+    .skills{
+        font-size: 20px;
+        margin-top: 18px;
+    }
+    .right-panel{
+        padding-left: 75px;
+    }
+    h3{
+        font-size: 22px;
+        margin-top: 18px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .loc{
+        font-size: 18px;
+    }
+    .web-txt{
+        font-size: 18px;
+        position: relative;
+        top: 12px;
+    }
+    .giaic-txt{
+        font-size: 18px;
+        margin-top: 20px;
+        position: relative;
+        top: 12px;
+    }
+    button{
+        width: 120px;
+        height: 30px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+    #exp-head{
+        margin-top: 30px;
+    }
+    #toogle{
+        position: relative;
+        top: 25px;
+        right: 10px;
+        width: 160px;
+        height: 35px;
+    }
+    .colorone{
+        width: 125px;
+        position: relative;
+        top: 45px;
+    }
+    
+    .colortwo{
+        width: 125px;
+        position: relative;
+        top: 69px;
+    }
+    .colorthree{
+        width: 125px;
+        position: relative;
+        top: 93px;
+    }
+    .colorfour{
+        width: 125px;
+        position: relative;
+        top: 118px;
+    }
+    .colorfive{
+        width: 125px;
+        position: relative;
+        top: 143px;
+    }
+    .colorsix{
+        width: 125px;
+        position: relative;
+        top: 167px;
+    }
+    .colorseven{
+        width: 125px;
+        position: relative;
+        top:190px ;
+    }
+    .coloreight{
+        width: 125px;
+        position: relative;
+        top: 214px;
+    }
+    .colornine{
+        width: 125px;
+        position: relative;
+        top: 110px;
+    }
+    .colorten{
+        width: 125px;
+        position: relative;
+        top: 160px;
+    }
+    .coloreleven{
+        width: 125px;
+        position: relative;
+        top: 187px;
+    }
+    
+    
+}
