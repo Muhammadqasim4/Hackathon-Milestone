@@ -176,7 +176,7 @@ h1{
     box-shadow: 2px 2px 6px 3px magenta;
     
 
-} */
+} 
 
 .colornine{
     height: 15px;
@@ -355,8 +355,8 @@ button{
     margin-top: 16px;
 }
 #toogle{
-    width: 120px;
-    height: 30px;
+    width: 125px;
+    height: 35px;
     border: 2px solid magenta;
     position: relative;
     border-radius: 20px;
