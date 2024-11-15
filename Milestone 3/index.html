@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="heading">Dynamic Resume Builder</h1>
+        <form id="resume-form">
+            <section>
+                <h2 class="sub-heading">Personal Information</h2>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="name" required>
+                <label for="email">Email:</label> 
+                <input type="email" id="email" name="email" placeholder="name@gmail.com" required>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required>
+            </section>
+            <section>
+                <h2 class="sub-heading">Education</h2>
+                <label for="degree">Degree:</label>
+                <input type="text" id="degree" name="degree" placeholder="which degree" required>
+                <label for="institute">Institute:</label>
+                <input type="text" id="institute" name="institute" placeholder="name of institute" required>
+                <label for="duration">Duration:</label>
+                <input type="text" id="duration" name="duration" placeholder="2021-2025" required>
+            </section>
+            <section>
+                <h2 class="sub-heading">Skills</h2>
+                <label for="skills">Skills:</label>
+                <textarea id="skills" name="skills" placeholder="which skills" required></textarea>
+            </section>
+            <section>
+                <h2 class="sub-heading">Experience</h2>
+                <label for="experience">Experience:</label>
+                <textarea id="experience" name="experience" placeholder="Describe your experience here..." required></textarea>
+            </section>
+            <section>
+                <h2 class="sub-heading">Profile</h2>
+                <label for="profile-image">Upload Profile Image:</label>
+                <input type="file" id="profile-image" name="profile-image" accept="image/*" required>
+            </section>
+            <button id="generate-btn" type="submit">Generate Resume</button>
+        </form>
+        <div id="resume-preview"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+

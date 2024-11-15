@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+    background-color: #1c1c1e;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #2c2c2e;
+    border-radius: 8px;
+    border: 1px solid #4a4a4d;
+    box-shadow: 0px 0px 8px 3px green;;
+}
+
+#heading {
+    text-align: center;
+    color:  green;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    margin-top: 20px;
+    color: green;;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    color: #e0e0e0;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="file"], textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #3a3a3d;
+    background-color: #2b2b2d;
+    color: #ffffff;
+}
+
+button {
+    background-color: #ffc107;
+    color: #000;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffb300;
+}
+
+#resume-preview {
+    margin-top: 40px;
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.resume-container img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 8px #ffc107;
+    margin-bottom: 20px;
+}
+
+.resume-container h2 {
+    color: #ffc107;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    input, textarea {
+        padding: 8px;
+    }
+    button {
+        padding: 8px 16px;
+    }
+}
+
